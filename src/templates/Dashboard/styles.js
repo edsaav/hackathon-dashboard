@@ -1,15 +1,15 @@
+import { Col, colors } from '@everlywell/leaves';
 import styled from 'styled-components';
 
 export const DashboardContainer = styled.div`
   display: flex;
   min-height: 100vh;
-`
+`;
 
-export const DashboardContentContainer = styled.div`
-  width: 100%;
-  padding: 48px 10% 0 48px;
-`
+export const LeftColumn = styled(Col)`
+  max-width: 70%;
+  flex-basis: auto;
+  background-color: ${colors.green0};
+`;
 
-export const Sidebar = styled.div`
-  width: 300px;
-`
+export const RightContainer = styled.div``;
