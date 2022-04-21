@@ -6,11 +6,10 @@ export const DashboardContainer = styled.div`
 `
 
 export const DashboardContentContainer = styled.div`
-  background-color: blue;
   width: 100%;
+  padding: 48px 10% 0 48px;
 `
 
 export const Sidebar = styled.div`
   width: 300px;
-  background-color: red;
 `
