@@ -1,11 +1,13 @@
-import { Header, Icons } from '@everlywell/leaves';
+import { Icons } from '@everlywell/leaves';
 import './App.css';
 import { Dashboard } from './templates/Dashboard';
+
+import * as S from './styles';
 
 function App() {
   return (
     <div className="App">
-      <Header
+      <S.Header
         loggedIn={false}
         activeMembership={undefined}
         numOfMemberCredits={0}
