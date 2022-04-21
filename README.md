@@ -4,19 +4,21 @@ An Everlywell dashboard for a one-stop-shop experience for users that include re
 
 ## Quick Start
 
-### Installation
-
 ```
 git clone git@github.com:edsaav/hackathon-dashboard.git
 cd hackathon-dashboard
 ```
 
-### Starting Locally
-
-In the project directory, you can run:
+### Installing Packages
 
 ```
-npm start
+yarn install
+```
+
+### Starting Locally
+
+```
+yarn start
 ```
 
 Runs the app in the development mode.\
