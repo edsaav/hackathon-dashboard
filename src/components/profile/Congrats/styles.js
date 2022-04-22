@@ -9,7 +9,7 @@ export const Banner = styled.div`
   box-sizing: border-box;
   border-radius: 8px;
   width: 100%;
-  margin: 70px 0 40px 40px;
+  margin: 70px 0;
   p {
     font-family: 'Nexa';
     font-style: normal;

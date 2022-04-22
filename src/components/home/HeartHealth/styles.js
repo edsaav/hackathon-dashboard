@@ -79,7 +79,8 @@ export const Rating = styled.div`
   svg {
     height: 32px;
     width: 32px;
-    &:first-child {
+    cursor: pointer;
+    &:hover {
       color: #1E824C;
     }
   }
