@@ -1,6 +1,10 @@
 import { Button } from '@everlywell/leaves';
 import styled from 'styled-components';
 
+export const PaymentInfoContainer = styled.div`
+  padding-bottom: 200px;
+`;
+
 export const StyledButton = styled(Button)`
   margin-right: 20px;
   width: 200px;
