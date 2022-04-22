@@ -55,7 +55,7 @@ export const Info = styled.div`
 `
 
 export const Button = styled.button`
-  width: 103px;
+  width: 125px;
   height: 32px;
 
   /* Green/Green 2 */
