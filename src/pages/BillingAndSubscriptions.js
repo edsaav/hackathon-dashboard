@@ -1,3 +1,5 @@
+import { PaymentInfo } from '../components/PaymentInfo';
+
 export const BillingAndSubscriptions = () => {
-  return <>BillingAndSubscriptions</>;
+  return <PaymentInfo />;
 };
