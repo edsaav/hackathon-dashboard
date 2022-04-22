@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const QuestionCard = styled.li`
-  width: 304px;
+  width: 26%;
   height: 236px;
 
   background: #004E51;;

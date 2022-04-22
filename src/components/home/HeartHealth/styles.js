@@ -1,5 +1,15 @@
 import styled from 'styled-components';
 
+export const Card = styled.div`
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 7px 30px -10px rgba(220, 228, 229, 1);
+  border-radius: 8px;
+  position: relative;
+  width: 47%;
+`
+
 export const Content = styled.div`
   padding: 32px;
   h2 {
@@ -54,6 +64,7 @@ export const Content = styled.div`
 `
 
 export const Footer = styled.div`
+  width: 100%;
   font-family: 'Nexa';
   font-style: normal;
   font-weight: 300;
