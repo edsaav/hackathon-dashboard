@@ -18,7 +18,7 @@ export const Dashboard = () => {
         <S.LeftColumn>
           <LeftNav />
         </S.LeftColumn>
-        <Col>
+        <S.RightColumn style={{'flexBasis': '80%'}}>
           <S.RightContainer>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -29,7 +29,7 @@ export const Dashboard = () => {
               <Route path="/results" element={<Results />} />
             </Routes>
           </S.RightContainer>
-        </Col>
+        </S.RightColumn>
       </S.DashboardContainer>
     </BrowserRouter>
   );
