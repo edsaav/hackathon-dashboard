@@ -1,10 +1,9 @@
 import { Icons } from '@everlywell/leaves';
-import { Card } from '../../Card'
 import * as S from './styles';
 
 export const HeartHealth = () => {
   return (
-    <Card>
+    <S.Card>
       <S.Content>
         <h2>Heart health</h2>
         <p>One out of every three adults has high cholesterol. All people over age 20 should get their cholesterol checked with a simple blood test every five years, according to the CDC, but only about 75 percent of them do.</p>
@@ -18,6 +17,6 @@ export const HeartHealth = () => {
         </S.Rating>
       </S.Footer>
       <S.Badge src='images/thyroidBadge.png'/>
-    </Card>
+    </S.Card>
   )
 }
