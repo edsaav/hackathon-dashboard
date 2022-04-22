@@ -27,7 +27,7 @@ export const QuestionCard = styled.li`
     max-width: 194px
   }
 
-  button {
+  a {
     font-family: 'Nexa';
     font-style: normal;
     font-weight: 700;
@@ -51,6 +51,8 @@ export const QuestionCard = styled.li`
     bottom: 28px;
     left: 24px;
     cursor: pointer;
+    text-decoration: none;
+    line-height: 30px;
     &:hover {
       background-color: #004E51;
       border: 1px solid white;

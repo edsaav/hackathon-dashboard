@@ -2,7 +2,7 @@ import { Shipment } from './Shipment';
 
 import * as S from './styles';
 
-export const Upcoming = () => {
+export const Upcoming = ({withTest}) => {
   return (
     <S.Wrapper>
       <S.Header>Your upcoming shipment</S.Header>
@@ -11,10 +11,13 @@ export const Upcoming = () => {
       <S.Spacer />
       <Shipment name='Heart Health Test' price='free' imgSrc='images/heartBox.png' />
       <Shipment name='Vitamin D3 Supplements' price='$18' imgSrc='images/vitBox.png' note='monthly' />
+      {withTest && (
+        <Shipment name='HbA1c' price='$49' imgSrc='images/heartBox.png' />
+      )}
       <S.Info>
         <S.InfoRow>
           <p>Subtotal:</p>
-          <p><b>$18.00</b></p>
+          <p><b>{withTest ? '$67.00' : '$18.00'}</b></p>
         </S.InfoRow>
         <S.InfoRow>
           <p>Shipping:</p>
@@ -22,12 +25,12 @@ export const Upcoming = () => {
         </S.InfoRow>
         <S.InfoRow>
           <p>Promo:<span>MEMBERSHIPS</span></p>
-          <p><em>-$4.00</em></p>
+          <p><em>{withTest ? '$13.40' : '-$4.00'}</em></p>
         </S.InfoRow>
       </S.Info>
       <S.Total>
         <p>Total (2 items):</p>
-        <p><b>$16.00</b></p>
+        <p><b>{withTest ? '$53.60' : '$14.00'}</b></p>
       </S.Total>
       <S.Button>Edit order</S.Button>
     </S.Wrapper>

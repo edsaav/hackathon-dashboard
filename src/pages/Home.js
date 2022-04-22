@@ -22,7 +22,7 @@ export const Home = () => {
       <SmallCards>
         <Resource imgSrc='images/doctor.png' text='How to Create and Maintain a Sleep Routine' />
         <Resource imgSrc='images/egg.png' text='How much cholesterol do eggs have?' />
-        <QuestionCard question='Answer more questions about your exercising habits' />
+        <QuestionCard question='Answer more questions about your pregnancy goals' />
       </SmallCards>
     </>
   );

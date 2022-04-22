@@ -5,7 +5,7 @@ export const QuestionCard = ({ question }) => {
     <S.QuestionCard>
       {/* <S.Content> */}
         <h3>{question}</h3>
-        <button>Answer</button>
+        <a href='/health-profile'>Answer</a>
         <S.Flourish>
           <S.FlourishUpperLeft />
           <S.FlourishUpperRight />

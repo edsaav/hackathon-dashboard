@@ -1,6 +1,6 @@
 import * as S from './styles';
 
-export const Order = ({name, imgSrc, upcoming, details, warning }) => {
+export const Order = ({name, imgSrc, upcoming, details, warning, handleRetest }) => {
   return (
     <S.Wrapper>
       <S.Summary>
@@ -18,7 +18,7 @@ export const Order = ({name, imgSrc, upcoming, details, warning }) => {
           )}
         </S.Info>
         <S.Actions>
-          <S.Button appearance='secondary' isDisabled={upcoming}>{upcoming ? 'Redeem test' : 'Retest'}</S.Button>
+          <S.Button  onClick={() => handleRetest()} appearance='secondary' isDisabled={upcoming}>{upcoming ? 'Redeem test' : 'Retest'}</S.Button>
           <S.Download>{upcoming ? 'Remove' : 'View Results'}</S.Download>
         </S.Actions>
       </S.Summary>
