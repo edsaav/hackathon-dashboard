@@ -7,8 +7,7 @@ export const DashboardContainer = styled.div`
 `;
 
 export const LeftColumn = styled(Col)`
-  max-width: 70%;
-  flex-basis: auto;
+  flex-basis: 250px;
   background-color: ${colors.green0};
 `;
 

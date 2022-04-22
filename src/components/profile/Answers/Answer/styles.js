@@ -8,7 +8,8 @@ export const AnswerCard = styled.li`
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  min-width: 450px;
+  max-width: 450px;
+  width: 100%;
   a {
     font-family: 'Nexa';
     font-style: normal;

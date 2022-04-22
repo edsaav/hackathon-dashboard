@@ -1,13 +1,13 @@
-import { Alert } from '../components/Alert';
-import { ResultsReady } from '../components/ResultsReady';
-import { HeartHealth } from '../components/HeartHealth';
+import { Alert } from '../components/home/Alert';
+import { Checkup } from '../components/home/Checkup';
+import { HeartHealth } from '../components/home/HeartHealth';
 
 export const Home = () => {
   return (
     <>
       <Alert />
-      <ResultsReady />
       <HeartHealth />
+      <Checkup />
     </>
   );
 };
