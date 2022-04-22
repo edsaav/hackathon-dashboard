@@ -1,5 +1,5 @@
+import { StyledLink } from '../StyledLink';
 import * as S from './styles';
-import { Link } from 'react-router-dom';
 
 export const LeftNav = () => {
   return (
@@ -7,49 +7,22 @@ export const LeftNav = () => {
       <S.LeftNavGreeting>Hello, Croissant</S.LeftNavGreeting>
       <S.LeftNavLinksContainer>
         <S.LeftNavLink>
-          <Link to="/" style={{ textDecoration: 'none', color: '#95c6bf' }}>
-            Home
-          </Link>
+          <StyledLink to="/">Home</StyledLink>
         </S.LeftNavLink>
         <S.LeftNavLink>
-          <Link
-            to="/results"
-            style={{ textDecoration: 'none', color: '#95c6bf' }}
-          >
-            Results
-          </Link>
+          <StyledLink to="/results">Results</StyledLink>
         </S.LeftNavLink>
         <S.LeftNavLink>
-          <Link
-            to="/health-profile"
-            style={{ textDecoration: 'none', color: '#95c6bf' }}
-          >
-            Health Profile
-          </Link>
+          <StyledLink to="/health-profile">Health Profile</StyledLink>
         </S.LeftNavLink>
         <S.LeftNavLink>
-          <Link
-            to="/memberships"
-            style={{ textDecoration: 'none', color: '#95c6bf' }}
-          >
-            Memberships
-          </Link>
+          <StyledLink to="/memberships">Memberships</StyledLink>
         </S.LeftNavLink>
         <S.LeftNavLink>
-          <Link
-            to="/orders"
-            style={{ textDecoration: 'none', color: '#95c6bf' }}
-          >
-            Orders
-          </Link>
+          <StyledLink to="/orders">Orders</StyledLink>
         </S.LeftNavLink>
         <S.LeftNavLink>
-          <Link
-            to="/settings"
-            style={{ textDecoration: 'none', color: '#95c6bf' }}
-          >
-            Account
-          </Link>
+          <StyledLink to="/settings">Account</StyledLink>
         </S.LeftNavLink>
       </S.LeftNavLinksContainer>
     </S.LeftNavContainer>
