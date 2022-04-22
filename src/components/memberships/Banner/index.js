@@ -4,9 +4,10 @@ export const Banner = () => {
   return (
     <S.QuestionCard>
       {/* <S.Content> */}
-        <h3>what does croissant want to see written here. What could be helpful to know right now hmm</h3>
+        <h3>You told us you’re trying to get pregnant.</h3>
+        <h4>Your history of abnormal HbA1c levels could affect your fertility. Our Fertility Pathway can help monitor & support your conception journey.</h4>
         <S.Actions>
-          <button>Add to queue</button>
+          <a href='/billing-subscriptions'>Join pathway</a>
           <S.TertiaryLink>Manage</S.TertiaryLink>
         </S.Actions>
         <S.Flourish>

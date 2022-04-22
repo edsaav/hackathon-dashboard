@@ -12,7 +12,7 @@ export const QuestionCard = styled.div`
   h3 {
     font-family: 'Nexa';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 21px;
     line-height: 28px;
     /* or 133% */
@@ -24,9 +24,27 @@ export const QuestionCard = styled.div`
 
     color: #FFFFFF;
     max-width: 80%;
+    margin-bottom: 8px;
+  }
+  h4 {
+    font-family: 'Nexa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 8px;
+    /* or 133% */
+
+    letter-spacing: 0.4px;
+    font-feature-settings: 'ss01' on;
+
+    /* Gray to White/White */
+
+    color: #FFFFFF;
+    max-width: 80%;
   }
 
-  button {
+  a {
     font-family: 'Nexa';
     font-style: normal;
     font-weight: 700;
@@ -47,6 +65,8 @@ export const QuestionCard = styled.div`
     box-sizing: border-box;
     border-radius: 4px;
     cursor: pointer;
+    line-height: 30px;
+    text-decoration: none;
     &:hover {
       background-color: #004E51;
       border: 1px solid white;
