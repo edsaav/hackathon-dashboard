@@ -6,6 +6,7 @@ export const Goals = styled.div`
 
   background: #015D58;
   border-radius: 8px;
+  margin-bottom: 32px;
 `
 
 export const Content = styled.div`
