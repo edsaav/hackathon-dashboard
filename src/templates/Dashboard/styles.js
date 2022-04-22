@@ -14,4 +14,5 @@ export const LeftColumn = styled(Col)`
 export const RightColumn = styled(Col)`
   flex-basis: 77%;
   padding: ${size.xl1}px;
+  max-width: 1200px;
 `;
