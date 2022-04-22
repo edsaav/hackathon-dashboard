@@ -1,4 +1,4 @@
-import { Col, colors } from '@everlywell/leaves';
+import { Col, colors, size } from '@everlywell/leaves';
 import styled from 'styled-components';
 
 export const DashboardContainer = styled.div`
@@ -13,7 +13,5 @@ export const LeftColumn = styled(Col)`
 
 export const RightColumn = styled(Col)`
   flex-basis: 80%;
-  padding: 40px;
+  padding: ${size.xl1}px;
 `;
-
-export const RightContainer = styled.div``;

@@ -1,7 +1,7 @@
-import { Menu } from "../components/profile/Menu"
-import { Answers } from "../components/profile/Answers"
-import { Questions } from "../components/profile/Questions"
-import { Congrats } from "../components/profile/Congrats"
+import { Menu } from '../components/Profile/Menu';
+import { Answers } from '../components/Profile/Answers';
+import { Questions } from '../components/Profile/Questions';
+import { Congrats } from '../components/Profile/Congrats';
 
 export const HealthProfile = () => {
   return (
@@ -11,5 +11,5 @@ export const HealthProfile = () => {
       <Questions />
       <Congrats />
     </>
-  )
-}
+  );
+};
