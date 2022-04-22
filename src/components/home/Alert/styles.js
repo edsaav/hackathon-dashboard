@@ -51,9 +51,10 @@ export const Text = styled.div`
   }
 `
 
-export const Button = styled.button`
+export const Button = styled.a`
   width: 113px;
   height: 32px;
+  line-height: 32px !important;
   border-radius: 2px;
   background-color: white;
   border: 1px solid #D6EBDD;
@@ -71,7 +72,8 @@ export const Button = styled.button`
 
   /* Green/Green 5 */
 
-  color: #1E824C;
+  color: #1E824C !important;
+  text-decoration: none;
   &:hover {
     background-color: #D6EBDD;
   }

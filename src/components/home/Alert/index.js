@@ -8,7 +8,7 @@ export const Alert = () => {
         <h3>Account information needed</h3>
         <h4>Please update your payment information</h4>
       </S.Text>
-      <S.Button>Go</S.Button>
+      <S.Button href="/settings">Go</S.Button>
     </S.Banner>
   )
 }
