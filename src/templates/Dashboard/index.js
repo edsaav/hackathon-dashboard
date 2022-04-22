@@ -1,15 +1,15 @@
 import { Col } from '@everlywell/leaves';
-import { LeftNav } from '../LeftNav';
-
-import * as S from './styles';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import { LeftNav } from '../LeftNav';
 import { Home } from '../../pages/Home';
 import { Account } from '../../pages/Account';
 import { HealthProfile } from '../../pages/HealthProfile';
 import { Memberships } from '../../pages/Memberships';
 import { Orders } from '../../pages/Orders';
 import { Results } from '../../pages/Results';
+
+import * as S from './styles';
 
 export const Dashboard = () => {
   return (

@@ -8,7 +8,7 @@ export const LeftNavContainer = styled.div`
 `;
 
 export const LeftNavGreeting = styled(H4)`
-  font-weight: 500;
+  font-weight: ${typography.weight.regular};
 `;
 
 export const LeftNavLinksContainer = styled.div`
@@ -17,7 +17,7 @@ export const LeftNavLinksContainer = styled.div`
 
 export const LeftNavLink = styled.a`
   display: block;
-  font-weight: 500;
+  font-weight: ${typography.weight.bold};
   padding: ${size.sm}px 0px;
   cursor: pointer;
   letter-spacing: 1px;
