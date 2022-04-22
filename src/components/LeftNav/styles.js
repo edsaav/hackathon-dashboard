@@ -21,4 +21,8 @@ export const LeftNavLink = styled.a`
   padding: ${size.sm}px 0px;
   cursor: pointer;
   letter-spacing: 1px;
+  a:hover {
+    color: #1EA676 !important;
+  }
+  }
 `;

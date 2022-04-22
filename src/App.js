@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <S.Header
-        loggedIn={false}
+        loggedIn={true}
         activeMembership={undefined}
         numOfMemberCredits={0}
         logoSrc={
