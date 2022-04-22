@@ -20,11 +20,14 @@ export const Dashboard = () => {
         <S.RightColumn>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/settings" element={<Account />} />
             <Route path="/health-profile" element={<HealthProfile />} />
             <Route path="/memberships" element={<Memberships />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/results" element={<Results />} />
+            <Route path="/settings" element={<Account />} />
+            <Route path="/profile" element={<Results />} />
+            <Route path="/billing-subscriptions" element={<Results />} />
+            <Route path="/data-privacy" element={<Results />} />
           </Routes>
         </S.RightColumn>
       </S.DashboardContainer>

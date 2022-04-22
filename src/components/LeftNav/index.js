@@ -1,7 +1,10 @@
+import React, { useState } from 'react';
 import { StyledLink } from '../StyledLink';
 import * as S from './styles';
 
 export const LeftNav = () => {
+  const [showAccountLinks, setShowAccountLinks] = useState(false);
+
   return (
     <S.LeftNavContainer>
       <S.LeftNavGreeting>Hello, Croissant</S.LeftNavGreeting>
@@ -22,8 +25,27 @@ export const LeftNav = () => {
           <StyledLink to="/orders">Orders</StyledLink>
         </S.LeftNavLink>
         <S.LeftNavLink>
-          <StyledLink to="/settings">Account</StyledLink>
+          <S.AccountNavLink
+            onClick={() => setShowAccountLinks(!showAccountLinks)}
+          >
+            Account
+          </S.AccountNavLink>
         </S.LeftNavLink>
+        {showAccountLinks ? (
+          <S.AccountLinks>
+            <S.LeftNavLink>
+              <StyledLink to="/profile">Profile</StyledLink>
+            </S.LeftNavLink>
+            <S.LeftNavLink>
+              <StyledLink to="/billing-subscriptions">
+                Billing & Subscriptions
+              </StyledLink>
+            </S.LeftNavLink>
+            <S.LeftNavLink>
+              <StyledLink to="/data-privacy">Data & Privacy</StyledLink>
+            </S.LeftNavLink>
+          </S.AccountLinks>
+        ) : null}
       </S.LeftNavLinksContainer>
     </S.LeftNavContainer>
   );
