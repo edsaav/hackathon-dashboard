@@ -15,8 +15,10 @@ export const LeftNavLinksContainer = styled.div`
   display: block;
 `;
 
-export const LeftNavLink = styled.div`
-  ${typography.disabledText}
-  font-weight: 400;
+export const LeftNavLink = styled.a`
+  display: block;
+  font-weight: 500;
   padding: ${size.sm}px 0px;
+  cursor: pointer;
+  letter-spacing: 1px;
 `;
