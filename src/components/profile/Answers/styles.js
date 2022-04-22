@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 export const Answers = styled.ul`
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 16px;
-  column-gap: 48px;
+  gap: 16px;
+  justify-content: space-between;
+  align-content: stretch;
+  padding-left: 0;
 `
