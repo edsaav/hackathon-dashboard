@@ -12,4 +12,8 @@ export const LeftColumn = styled(Col)`
   background-color: ${colors.green0};
 `;
 
+export const RightColumn = styled(Col)`
+  flex-basis: 80%;
+`;
+
 export const RightContainer = styled.div``;
