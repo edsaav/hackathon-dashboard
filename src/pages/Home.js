@@ -1,6 +1,6 @@
-import { Alert } from "../components/Alert"
-import { ResultsReady } from "../components/ResultsReady"
-import { HeartHealth } from "../components/HeartHealth"
+import { Alert } from '../components/Alert';
+import { ResultsReady } from '../components/ResultsReady';
+import { HeartHealth } from '../components/HeartHealth';
 
 export const Home = () => {
   return (
@@ -9,5 +9,5 @@ export const Home = () => {
       <ResultsReady />
       <HeartHealth />
     </>
-  )
-}
+  );
+};

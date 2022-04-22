@@ -1,5 +1,5 @@
-import { Menu } from "../components/profile/Menu"
-import { Answers } from "../components/profile/Answers"
+import { Menu } from '../components/Profile/Menu';
+import { Answers } from '../components/Profile/Answers';
 
 export const HealthProfile = () => {
   return (
@@ -7,5 +7,5 @@ export const HealthProfile = () => {
       <Menu />
       <Answers />
     </>
-  )
-}
+  );
+};
