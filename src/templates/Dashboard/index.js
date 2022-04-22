@@ -2,11 +2,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { LeftNav } from '../../components/LeftNav';
 import { Home } from '../../pages/Home';
-import { Account } from '../../pages/Account';
 import { HealthProfile } from '../../pages/HealthProfile';
 import { Memberships } from '../../pages/Memberships';
 import { Orders } from '../../pages/Orders';
 import { Results } from '../../pages/Results';
+import { Profile } from '../../pages/Profile';
+import { BillingAndSubscriptions } from '../../pages/BillingAndSubscriptions';
+import { DataPrivacy } from '../../pages/DataPrivacy';
 
 import * as S from './styles';
 
@@ -24,10 +26,12 @@ export const Dashboard = () => {
             <Route path="/memberships" element={<Memberships />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/results" element={<Results />} />
-            <Route path="/settings" element={<Account />} />
-            <Route path="/profile" element={<Results />} />
-            <Route path="/billing-subscriptions" element={<Results />} />
-            <Route path="/data-privacy" element={<Results />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route
+              path="/billing-subscriptions"
+              element={<BillingAndSubscriptions />}
+            />
+            <Route path="/data-privacy" element={<DataPrivacy />} />
           </Routes>
         </S.RightColumn>
       </S.DashboardContainer>
